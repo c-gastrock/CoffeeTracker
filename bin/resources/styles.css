@@ -1,0 +1,11 @@
+.root {
+    -fx-font-size: 14pt;
+    -fx-font-family: FreeMono, monospace;
+    -fx-base: #1c2833;
+    -fx-background: #212F3D;
+    -fx-text-fill: white;
+}
+#clock {
+    -fx-font-size: 35pt;
+}
+
