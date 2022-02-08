@@ -4,6 +4,6 @@ A personal desktop application for coffee recipes, tasting notes, and potential 
 
 Written in Java w/ JavaFX.
 
-###TODO:
+###### TODO:
 - Log.txt
 - Make background of stopwatch timestamps look indented and separate (more than just current border)
