@@ -7,3 +7,4 @@ Written in Java w/ JavaFX.
 ###### TODO:
 - Log.txt
 - Make background of stopwatch timestamps look indented and separate (more than just current border)
+- In the future, potentially move over to being a web app.
