@@ -87,6 +87,8 @@ public class Timer extends AnimationTimer{
 		lapPane.setMaxSize(400, 150);
 		lapPane.setContent(lapsDisplay);
 		lapPane.setPadding(new Insets(25));
+
+		lapPane.setId("timer-laps");
 		
 		device.getChildren().add(btnRow);
 		device.getChildren().add(lapPane);

@@ -67,8 +67,8 @@ public class Ingredients {
 				
 		CheckBox isIced = new CheckBox("Iced"); // Node for options area
 		
-		ComboBox<String> other = new ComboBox<String>(); // Node for options area		
-		other.getItems().addAll("0", "1", "2", "3");
+		ComboBox<String> other = new ComboBox<String>(); // Selects # of ingredients		
+		other.getItems().addAll("0", "1", "2");
 		other.setPromptText("# of ingredients");
 		other.setOnAction(new EventHandler<ActionEvent>() { // Changes number of additional ingredients
 			public void handle(ActionEvent event) {
@@ -108,7 +108,7 @@ public class Ingredients {
 		isIced.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent event) {
 				if(isIced.isSelected()) {
-					ingredients.getChildren().add(3, ice); // puts ice specifically under options, coffee, and water (in that order)
+					ingredients.getChildren().add(3, ice); // puts ice right under coffee and water (above other)
 				}
 				else {
 					ingredients.getChildren().remove(ice);

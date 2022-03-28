@@ -9,3 +9,7 @@
     -fx-font-size: 35pt;
 }
 
+#timer-laps, #timer-laps > * {
+	-fx-background-color: #1c2833;
+}
+
